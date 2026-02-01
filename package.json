@@ -1,0 +1,27 @@
+{
+  "name": "funky-scripts",
+  "version": "1.0.0",
+  "description": "Collection of funky scripts for surviving adult life",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickgl1003/funky-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/erickgl1003/funky-scripts/issues"
+  },
+  "homepage": "https://github.com/erickgl1003/funky-scripts#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.0",
+    "@commitlint/config-conventional": "^20.4.0",
+    "husky": "^8.0.0"
+  }
+}

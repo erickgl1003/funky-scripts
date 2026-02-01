@@ -1,8 +1,0 @@
-#!/bin/sh
-. .husky/_/husky.sh
-
-echo 'Running pre-push tests...'
-
-".venv\Scripts\python.exe" -m pytest
-
-echo 'Pre-push tests finished.'
