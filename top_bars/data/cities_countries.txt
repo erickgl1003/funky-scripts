@@ -1,0 +1,45 @@
+New Orleans, United States
+Nairobi, Kenya
+Bogotá, Colombia
+Barcelona, España
+Madrid, España
+Florence, Italia
+Tokyo, 日本
+Stockholm, Sverige
+San Francisco, United States
+New Delhi, India
+Guangzhou, 中国
+New York, United States
+Tulum, México
+Los Angeles, United States
+Medellín, Colombia
+Edinburgh, United Kingdom
+Buenos Aires, Argentina
+São Paulo, Brasil
+Toronto, Canada
+Hong Kong, 中国
+Bratislava, Slovensko
+Bangkok, ประเทศไทย
+Taichung, 臺灣
+Tirana, Shqipëria
+Singapore, Singapore
+London, United Kingdom
+Copenhagen, Danmark
+Rome, Italia
+Guadalajara, México
+Mexico City, México
+Athens, Greece
+Miami, United States
+Cartagena, España
+Seoul, 대한민국
+Dubai, الإمارات العربية المتحدة
+Lima, Perú
+Melbourne, Australia
+Hiriketiya, Sri Lanka
+Berlin, Deutschland
+Oslo, Norge
+Chicago, United States
+Sydney, Australia
+Naples, Italia
+Paris, France
+Milan, Italia
