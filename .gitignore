@@ -2,6 +2,7 @@
 node_modules/
 *.pyc
 __pycache__/
+.pytest_cache/
 .venv/
 venv/
 package-lock.json
@@ -28,10 +29,6 @@ build/
 # Environment
 .env
 .env.local
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
 
 # Linters
 .husky/

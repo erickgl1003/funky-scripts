@@ -74,7 +74,7 @@ Write-Host "Creating pre-push hook..."
 
 echo 'Running pre-push tests...'
 
-`"$PythonExe`" -m pytest
+`"$PythonExe`" -m pytest || test $? -eq 5
 
 echo 'Pre-push tests finished.'
 "@ | Set-Content ".husky/pre-push"
