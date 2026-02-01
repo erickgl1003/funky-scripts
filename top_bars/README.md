@@ -1,17 +1,17 @@
 # Top Bars
 
-A collection of scripts and tools for analyzing and working with top bars data.
+A collection of scripts for fetching [The World's 50 Best Bars](https://www.theworlds50best.com/bars/list/1-50) data.
 
 ## Files
 
 ### `top_bars.py`
-The main Python script that processes and analyzes top bars data. This script handles data extraction & transformation. Run this script to perform the core data processing operations on the top bars dataset.
+The main Python script that processes top bars data. This script handles data extraction & transformation by leveraging Selenium.
 
 ### `jupyter_notebook.ipynb`
-An interactive Jupyter Notebook for exploratory data analysis and visualization of top bars data. Use this notebook to experiment with different analyses, create visualizations, and document your findings in a step-by-step format. Open this in Jupyter or VS Code's notebook viewer to run cells interactively.
+An interactive Jupyter Notebook for exploratory data analysis and visualization of top bars data. Open this in Jupyter or VS Code's notebook viewer to run cells interactively.
 
 ### `data/top_bars_{year}.txt`
-The input data file containing top bars information for 2026. This text file serves as the primary dataset used by both the Python script and Jupyter Notebook. The data is processed and analyzed by the scripts in this directory.
+The input data file containing top bars information for a given year, created in `top_bars.py`. This text file serves as the primary dataset used by the Jupyter Notebook.
 
 ## Usage
 
