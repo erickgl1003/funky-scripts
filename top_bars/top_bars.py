@@ -22,9 +22,7 @@ cities_text = [city.get_property("innerHTML") for city in cities]
 pairs = list(zip(bar_names_text, cities_text))
 print(list(pairs))
 
-year = date.today().year
-
-with open(f"data/top_bars_{year}.txt", "w", encoding="utf-8") as f:
+with open(f"data/top_bars_{date.today().year}.txt", "w", encoding="utf-8") as f:
     for index, pair in enumerate(pairs):
         f.write(f"{index+1}, {pair[0]}, {pair[1]}\n")
 
