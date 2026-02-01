@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/erickgl1003/funky-scripts/blob/main/top_bars/jupyter_notebook.ipynb)
+
 # Top Bars
 
 A collection of scripts for fetching [The World's 50 Best Bars](https://www.theworlds50best.com/bars/list/1-50) data.
