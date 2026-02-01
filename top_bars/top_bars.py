@@ -6,7 +6,6 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
 # Constants
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 CURRENT_WORKSPACE_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
@@ -37,7 +36,6 @@ def get_country(city: str) -> str | None:
 def generate_countries(cities: list[str]) -> dict[str, str | None]:
     """Given a list of city names, returns a dict of city->country mappings."""
     countries: dict[str, str | None] = {}
-    print("Generating country data for cities:", cities )
 
     # Load existing data
     if os.path.exists(COUNTRIES_FILE):
