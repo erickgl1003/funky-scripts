@@ -1,0 +1,100 @@
+1, Maido, Lima, Perú
+2, Asador Etxebarri, Atxondo, España
+3, Quintonil, Mexico City, México
+4, Diverxo, Madrid, España
+5, Alchemist, Copenhagen, Danmark
+6, Gaggan, Bangkok, ประเทศไทย
+7, Sézanne, Tokyo, 日本
+8, Table by Bruno Verjus, Paris, France
+9, Kjolle, Lima, Perú
+10, Don Julio, Buenos Aires, Argentina
+11, Wing, Hong Kong, 中国
+12, Atomix, New York, United States
+13, Potong, Bangkok, ประเทศไทย
+14, Plénitude, Paris, France
+15, Ikoyi, London, United Kingdom
+16, Lido 84, Gardone Riviera, Italia
+17, Sorn, Bangkok, ประเทศไทย
+18, Reale, Castel di Sangro, Italia
+19, The Chairman, Hong Kong, 中国
+20, Atelier Moessmer Norbert Niederkofler, Brunico, Italia
+21, Narisawa, Tokyo, 日本
+22, Sühring, Bangkok, ประเทศไทย
+23, Boragó, Santiago, Chile
+24, Elkano, Getaria, France
+25, Odette, Singapore, Singapore
+26, Mérito, Lima, Perú
+27, Trèsind Studio, Dubai, الإمارات العربية المتحدة
+28, Lasai, Rio de Janeiro, Brasil
+29, Mingles, Seoul, 대한민국
+30, Le Du, Bangkok, ประเทศไทย
+31, Le Calandre, Rubano, Italia
+32, Piazza Duomo, Alba, United Kingdom
+33, Steirereck, Vienna, Österreich
+34, Enigma, Barcelona, España
+35, Nusara, Bangkok, ประเทศไทย
+36, Florilège, Tokyo, 日本
+37, Orfali Bros, Dubai, الإمارات العربية المتحدة
+38, Frantzén, Stockholm, Sverige
+39, Mayta, Lima, Perú
+40, Septime, Paris, France
+41, Kadeau, Copenhagen, Danmark
+42, Belcanto, Lisbon, Portugal
+43, Uliassi, Senigallia, Italia
+44, La Cime, Osaka, 日本
+45, Arpège, Paris, France
+46, Rosetta, Mexico City, México
+47, Vyn, Skillinge, Sverige
+48, Celele, Cartagena, España
+49, Kol, London, United Kingdom
+50, Jan, Munich, Deutschland
+51, Alcalde, Guadalajara, México
+52, Schloss Schauenstein, Fürstenau, Deutschland
+53, Den, Tokyo, 日本
+54, El Chato, Bogotá, Colombia
+55, La Colombe, Cape Town, South Africa
+56, Jordnær, Copenhagen, Danmark
+57, Onjium, Seoul, 대한민국
+58, Restaurant Tim Raue, Berlin, Deutschland
+59, Nobelhart &amp; Schmutzig, Berlin, Deutschland
+60, Pujol, Mexico City, México
+61, Nuema, Quito, Ecuador
+62, Willem Hiele, Oudenburg, België / Belgique / Belgien
+63, Bozar, Brussels, België / Belgique / Belgien
+64, Fu He Hui, Shanghai, 中国
+65, Quique Dacosta, Dénia, España
+66, Saint Peter, Sydney, Australia
+67, Arca, Tulum, México
+68, Masque, Mumbai, India
+69, Hiša Franko, Kobarid, Slovenija
+70, Tuju, São Paulo, Brasil
+71, Sazenka, Tokyo, 日本
+72, Chef Tam's Seasons, Macau, 中国
+73, Tantris, Munich, Deutschland
+74, Mountain, London, United Kingdom
+75, Mil, Cusco, Perú
+76, Leo, Bogotá, Colombia
+77, Le Doyenné, Saint-Vrain, France
+78, Cocina Hermanos Torres, Barcelona, España
+79, Coda , Berlin, Deutschland
+80, SingleThread, Healdsburg, United States
+81, Oteque, Rio de Janeiro, Brasil
+82, Fyn, Cape Town, South Africa
+83, A Casa do Porco, São Paulo, Brasil
+84, Aponiente, El Puerto de Santa María, España
+85, Txispa, Atxondo, España
+86, The Clove Club, London, United Kingdom
+87, Mugaritz, San Sebastián, España
+88, Salsify at the Roundhouse, Cape Town, South Africa
+89, Huniik, Mérida, España
+90, Le Bernardin, New York, United States
+91, Koan, Copenhagen, Danmark
+92, Al Gatto Verde, Modena, Italia
+93, Burnt Ends, Singapore, Singapore
+94, Meet the Bund, Shanghai, 中国
+95, Evvai, São Paulo, Brasil
+96, Atelier Crenn, San Francisco, United States
+97, Labyrinth, Singapore, Singapore
+98, César, New York, United States
+99, Amisfield Restaurant, Queenstown, New Zealand / Aotearoa
+100, Neolokal, Istanbul, Türkiye

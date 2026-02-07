@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 CURRENT_WORKSPACE_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 COUNTRIES_FILE = f"{CURRENT_WORKSPACE_DIRECTORY}/data/cities_countries.txt"
-TOP_BARS_FILE = f"{CURRENT_WORKSPACE_DIRECTORY}/data/top_bars_{{year}}.txt"
+TOP_100_FILE = f"{CURRENT_WORKSPACE_DIRECTORY}/data/top_{{site_type}}_{{year}}.txt"
 API_DELAY = 1
 SELENIUM_DELAY = 2
 
@@ -67,33 +67,44 @@ def generate_countries(cities: list[str]) -> dict[str, str | None]:
     return {city: countries.get(city) for city in cities}
 
 
-def scrape_top_bars() -> None:
-    """Scrape top 100 bars from The World's 50 Best Bars website."""
+def scrape_top_100(site_type = "bars") -> None:
+    """Scrape top 100 items from The World's 50 Best (Bars/Restaurants) website.
+    Args:
+        site_type: The type of site to scrape (e.g., "bars", "restaurants").
+    """
     browser = None
     try:
+        url = "https://www.theworlds50best.com{}/list/1-50"
+        match site_type:
+            case "bars":
+                url = url.format("/bars")
+            case "restaurants":
+                url = url.format("")
+            case _:
+                raise ValueError(f"Unknown site_type: {site_type}")
         browser = webdriver.Chrome()
-        browser.get("https://www.theworlds50best.com/bars/list/1-50.html")
+        browser.get(url)
         time.sleep(SELENIUM_DELAY)
 
-        we_bars = browser.find_elements(By.CLASS_NAME, "item-bottom")
+        web_items = browser.find_elements(By.CLASS_NAME, "item-bottom")
 
-        bars = [we.find_element(By.TAG_NAME, "h2") for we in we_bars]
-        bar_names = [bar.get_property("innerHTML") for bar in bars]
+        places = [we.find_element(By.TAG_NAME, "h2") for we in web_items]
+        places_names = [place.get_property("innerHTML") for place in places]
 
-        cities = [we.find_element(By.TAG_NAME, "p") for we in we_bars]
+        cities = [we.find_element(By.TAG_NAME, "p") for we in web_items]
         cities_text = [city.get_property("innerHTML") for city in cities]
         countries_eq = generate_countries(cities_text)
 
-        output_file = TOP_BARS_FILE.format(year=date.today().year)
+        output_file = TOP_100_FILE.format(site_type=site_type, year=date.today().year)
         with open(output_file, "w", encoding="utf-8") as f:
-            for index, (name, city) in enumerate(zip(bar_names, cities_text), 1):
+            for index, (name, city) in enumerate(zip(places_names, cities_text), 1):
                 country = countries_eq.get(city, "Unknown")
                 f.write(f"{index}, {name}, {city}, {country}\n")
 
-        print(f"Scraped {len(bar_names)} bars to {output_file}")
+        print(f"Scraped {len(places_names)} {site_type} to {output_file}")
 
     except Exception as e:
-        print(f"Error scraping top bars: {e}")
+        print(f"Error scraping top {site_type}: {e}")
 
     finally:
         if browser:
@@ -101,4 +112,4 @@ def scrape_top_bars() -> None:
 
 
 if __name__ == "__main__":
-    scrape_top_bars()
+    scrape_top_100(site_type="restaurants")

@@ -43,3 +43,37 @@ Sydney, Australia
 Naples, Italia
 Paris, France
 Milan, Italia
+Mumbai, India
+Skillinge, Sverige
+Munich, Deutschland
+San Sebastián, España
+Saint-Vrain, France
+Rio de Janeiro, Brasil
+Rubano, Italia
+Castel di Sangro, Italia
+Queenstown, New Zealand / Aotearoa
+Santiago, Chile
+Istanbul, Türkiye
+Osaka, 日本
+Alba, United Kingdom
+Atxondo, España
+Macau, 中国
+Quito, Ecuador
+Healdsburg, United States
+Mérida, España
+El Puerto de Santa María, España
+Dénia, España
+Brussels, België / Belgique / Belgien
+Oudenburg, België / Belgique / Belgien
+Kobarid, Slovenija
+Getaria, France
+Gardone Riviera, Italia
+Modena, Italia
+Lisbon, Portugal
+Shanghai, 中国
+Brunico, Italia
+Fürstenau, Deutschland
+Senigallia, Italia
+Cusco, Perú
+Vienna, Österreich
+Cape Town, South Africa
