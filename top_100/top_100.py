@@ -67,7 +67,7 @@ def generate_countries(cities: list[str]) -> dict[str, str | None]:
     return {city: countries.get(city) for city in cities}
 
 
-def scrape_top_100(site_type = "bars") -> None:
+def scrape_top_100(site_type="bars") -> None:
     """Scrape top 100 items from The World's 50 Best (Bars/Restaurants) website.
     Args:
         site_type: The type of site to scrape (e.g., "bars", "restaurants").
